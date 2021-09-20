@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="Le-Metamorfosi-di-Circe">
+	<item n="1" xml:id="item-1">
+		<dc:title>Cavendum a meretricibus</dc:title>
+		<dc:creator xml:id="AA">Alciato, Andrea</dc:creator>
+		<dc:subject xml:lang="it">emblema, xilografia, mitologia, Circe</dc:subject>
+		<dc:description xml:lang="it">Emblema LXXVI facente parte del testo a stampa "Emblematum libellus, nuper in lucem editus" (1546) di Andrea Alciato, che comprende una xilografia in cui il personaggio di Circe è rappresentato nell'atto di trasformare un gruppo di uomini in maiali toccandoli con la propria bacchetta; un testo poetico di sei versi in cui l'autore esprime un'interpretazione razionalizzante del mito, per cui Circe viene identificata come una meretrice che, tramite la passione amorosa, fa perdere la ragione agli uomini</dc:description>
+		<dc:contributor xml:id="SI">Serena Ippoliti</dc:contributor>
+		<dc:date type="creation">1546</dc:date>
+		<dc:type xml:lang="it">xilografia</dc:type>
+		<dc:format>JPG</dc:format>
+		<dc:type xml:lang="it">testo poetico</dc:type>
+		<dc:format>HTML/CSS</dc:format>
+		<dc:identifier>https://serenaippoliti.github.io/Le-Metamorfosi-di-Circe/item.htm</dc:identifier>
+		<dc:source>Andreae Alciati Emblematum libellus, nuper in lucem editus. - Venetiis : [Paolo Manuzio], 1546 (Venetiis : apud Aldi filios, 1546, mense Iunio)</dc:source>
+		<dc:language>lat</dc:language>
+		<dc:relation>https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A46a016</dc:relation>
+		<dc:coverage>Italia</dc:coverage>
+		<dc:coverage>XVI secolo</dc:coverage>
+		<dc:rights>Licenza Creative Commons Attribuzione 4.0 Internazionale</dc:rights>
+	</item>
+</library>

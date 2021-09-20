@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+
+	<!-- header -->
+	<teiHeader>
+		<fileDesc>
+			<!-- title statement -->
+			<titleStmt>
+				<title>Cavendum a meretricibus</title>
+				<author ref="https://viaf.org/viaf/51699991/" xml:id="AA">Alciato, Andrea</author>
+				<respStmt>
+					<resp>Marcatura</resp>
+					<name xml:id="SI">Serena Ippoliti</name>
+				</respStmt>
+			</titleStmt>
+			<!-- publication statement -->
+			<publicationStmt>
+				<p>Licenza Creative Commons Attribuzione 4.0 Internazionale</p>
+			</publicationStmt>
+			<!-- series statement -->
+			<seriesStmt>
+				<title>Le Metamorfosi di Circe</title>
+				<respStmt>
+					<resp>Compilazione</resp>
+					<name ref="#SI">Serena Ippoliti</name>
+				</respStmt>
+				<idno type="installment">item-1</idno>
+			</seriesStmt>
+			<!-- source description -->
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title>Emblematum libellus, nuper in lucem editus</title>
+						<author ref="AA">Alciato, Andrea</author>
+						<imprint>
+							<pubPlace>Venezia</pubPlace>
+							<publisher>Aldo Manuzio</publisher>
+							<date when="1546-06">giugno 1546</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<!-- profile description -->
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords scheme="#BNCF">
+					<list>
+						<item>Xilografia</item>
+						<item>Letteratura emblematica</item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+
+	<!-- testo -->
+	<text xml:lang="lat">
+		<body>
+			<figure>
+				<graphic url="img/img-lista/item-1.jpg"/>
+				<figDesc>Xilografia che rappresenta, in primo piano, Circe che trasforma un gruppo di uomini in maiali toccandoli con la propria bacchetta, e sullo sfondo dei rilievi montuosi (sulla sinistra e all'estrema destra) e un gruppo di abitazioni (sulla destra)</figDesc>
+			</figure>
+			<div type="emblem" n="LXXVI">
+				<head>Cavendum a meretricibus</head>
+				<lg>
+					<l n="1">
+						<persName><addName type="epithet">Sole satae</addName> Circes</persName> tam magna potentia fertur,
+					</l>
+					<l n="2">
+						Verterit ut multos in nova monstra viros.
+					</l>
+					<l n="3">
+						Testis <span type="allusion"><persName><addName type="epithet">equus domitor</addName> Picus</persName></span><note resp="#SI">Riferimento alla trasformazione del re italico Pico in picchio da parte di Circe. Cfr. Ovidio, "Metamorfosi" XIV 382-396</note>, tum <span type="allusion"><persName>Scylla <addName type="epithet">biformis</addName></persName></span><note resp="#SI">Riferimento alla trasformazione della ninfa Scilla in mostro da parte di Circe. Cfr. Ovidio, "Metamorfosi" XIV 51-67</note>,
+					</l>
+					<l n="4">
+						Atque <span type="allusion"><rs type="person">Ithaci</rs> postquam vina bibere <rs type="animal">sues</rs></span><note resp="#SI">Riferimento alla trasformazione dei compagni di Odisseo in maiali da parte di Circe. Cfr. Omero, "Odissea" X 233-238</note>.
+					</l>
+					<l n="5">
+						Indicat illustri <span type="theme" resp="#SI"><rs type="person">meretricem</rs></span> nomine <name type="person">Circe</name>,
+					</l>
+					<l n="6">
+						Et <span type="theme" resp="#SI">rationem animi perdere, quisquis amat</span>.
+					</l>
+				</lg>
+			</div>
+		</body>
+	</text>
+
+</TEI>

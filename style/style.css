@@ -1,0 +1,281 @@
+* {box-sizing: border-box;}
+
+html {
+	scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	background-color: white;
+	color: #000205;
+}
+
+header.home {
+	padding: 100px;
+	text-align: center;
+	background: linear-gradient(to bottom, rgba(92, 77, 66, 0.6) 0%, rgba(92, 77, 66, 0.6) 100%), url("../img/img-index/circe-waterhouse.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	font-family: Garamond, serif;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+header.home h1 {
+	color: #f9b4b3;
+	text-align: center;
+	font-size: 80px;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+header.lista {
+	background-color: #f9b4b3;
+	padding: 20px;
+}
+
+header.lista h1 {
+	font-family: Garamond, serif;
+	text-align: center;
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+header.lista h2 {
+	font-family: Garamond, serif;
+	text-align: center;
+	color: #feeeed;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: Garamond, serif;
+	font-weight: bold;
+	text-align: left;
+}
+
+h2 {font-size: 40px;}
+
+h3, h5, h6 {color: #000205;}
+
+hr {border: 1px solid #f9b4b3;}
+
+ul, .dropdown-item {
+	font-family: Garamond, serif;
+	font-size: 20px;
+	color: #000205;
+}
+
+.navbar-brand {
+	font-family: Garamond, serif;
+	font-size: 25px;
+	color: #000205;
+}
+
+#descrizione {
+	background-color: #b43748;
+	padding: 150px;
+}
+
+#catalogo {
+	background-color: #e0fffc;
+	padding: 150px;
+}
+
+#risorse {
+	background-color: #0a022b;
+	padding: 150px;
+}
+
+#descrizione .card-text, #catalogo .card-text, #risorse .card-text, #risorse ol, .btn {
+	font-family: Garamond, serif;
+	font-size: 20px;
+}
+
+.btn:hover {box-shadow: 0px 5px 40px -10px rgba(122, 144, 173, .2);}
+
+.card-header.iconografia {background-color: #f3d8dc;}
+
+.card-header.testo {background-color: #d9e9f2;}
+
+.card-text {
+	color: #000205;
+	font-size: 15px;
+}
+
+.card-item:hover {box-shadow: 0px 5px 40px -10px rgba(122, 144, 173, .9);}
+
+.img-caption {
+	font-size: 12px;
+	color: #000205;
+}
+
+header.home .img-caption {
+	font-family: Verdana, sans-serif;
+	color: white;
+}
+
+.btn-primary {
+	background-color: #3b84ab;
+	border: 1px solid #3b84ab;
+}
+
+.btn-primary:hover {
+	background-color: #2e6685;
+	border: 1px solid #2e6685;
+}
+
+.btn-danger {
+	background-color: #b43748;
+	border: 1px solid #b43748;
+}
+
+.btn-danger:hover {
+	background-color: #8C2B38;
+	border: 1px solid #8C2B38;
+}
+
+.btn-success {
+	background-color: #f9b4b3;
+	border: 1px solid #f9b4b3;
+}
+
+.btn-success:hover {
+	background-color: #f58b89;
+	border: 1px solid #f58b89;
+}
+
+.btn-info {
+	background-color: #00ccb8;
+	border: 1px solid #00ccb8;
+}
+
+.btn-info:hover {
+	background-color: #00998a;
+	border: 1px solid #00998a;
+}
+
+.btn-dark {
+	background-color: #230792;
+	border: 1px solid #230792;
+}
+
+.btn-dark:hover {
+	background-color: #170561;
+	border: 1px solid #170561;
+}
+
+.btn-sm {
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+}
+
+a {color: #3b84ab;}
+
+a:hover {
+	color: #2e6685;
+	text-decoration: none;
+}
+
+.breadcrumb {background-color: white;}
+
+.breadcrumb-item a, .card-text a, .card-title a, ol a, .page-link, .card-link, a.tema {color: #b43748;}
+
+.breadcrumb-item a:hover, .card-text a:hover, .card-title a:hover, ol a:hover, .card-link:hover, a.tema:hover {
+	color: #8C2B38;
+	text-decoration: none;
+}
+
+.page-item.active .page-link, .page-link:hover {
+	color: white;
+	border-color: #b43748;
+	background-color: #b43748;
+}
+
+tr.last-row {border-bottom: 1px solid #d9d9d9;}
+
+span.nome {color: #f9b4b3;}
+
+span.rif, sup {
+	text-decoration: underline;
+	text-decoration-color: #230792;
+}
+
+sup {color: #230792;}
+
+span.animale {color: #00ccb8;}
+
+.interp, a.interp {
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-decoration-color: #b43748;
+}
+
+.note {font-size: 13px;}
+
+.note a {color: #230792;}
+
+.note a:hover {color: #120449;}
+
+td ul {
+	list-style-type: circle;
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+}
+
+footer {
+	padding: 40px;
+	text-align: left;
+	font-size: 14px;
+}
+
+footer ul {
+	list-style-type: none;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	text-align: left;
+}
+
+.fa {
+	padding: 10px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	opacity: 0.6;
+	text-decoration: none;
+	color: white;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+	font-size: 20px;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+	font-size: 20px;
+}
+
+.fa-instagram {
+	background: #e1306c;
+	color: white;
+	font-size: 20px;
+}
+
+.fa-github {
+	background: black;
+	color: white;
+	font-size: 20px;
+}
